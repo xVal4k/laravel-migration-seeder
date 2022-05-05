@@ -3,5 +3,10 @@
 @section('Title', 'Laravel-Migration')
 
 @section('content')
-    <h1>Ciao sono il content dello yeld</h1>
+    @foreach ($trains as $train)
+        <p>{{ $train->Departure_station }} - {{ $train->Arrival_station }}</p>
+        <p>{{ $train->Departure_time }}</p>
+        <p>{{ $train->Arrival_time }}</p>
+        <p>{{ $train->train }}</p>
+    @endforeach
 @endsection
