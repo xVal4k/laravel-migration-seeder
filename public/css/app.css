@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;
+
+700&display=swap);* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: rgb(212, 211, 211);
+  height: 100vh;
+  padding: 2rem 0;
+}
+
+main {
+  margin: 3rem auto;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+.table {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.table .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.table .row > * {
+  width: 25%;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.table .col_title {
+  color: tomato;
+}
+
