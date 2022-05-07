@@ -19,6 +19,7 @@
                     <p>{{ $train->Train }}</p>
                 </div>
             @endforeach
+            {{ $trains->links() }}
         </div>
     </main>
 @endsection
